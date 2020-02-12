@@ -1,3 +1,4 @@
+
 /* HEADER */
 
 .container {
@@ -59,4 +60,35 @@
 }
 .menu__item a:focus {
   background: #2e437c;
+}
+
+/* main */
+
+.item__list__wrap{
+    width: 810px;
+    margin: 0 auto;
+}
+.item__list__wrap ul{
+    display: FLEX;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    width: 400px;
+    height: 360px;
+    margin-bottom: 10px;
+    background: #eee;
+}
+.item__list__wrap a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.item__list__wrap img{
+    display: block;
+    margin: 0 auto;
+}
+.item__list__wrap span{
+    display: block;
+    text-align: center;
 }
