@@ -1,0 +1,28 @@
+.item__list__wrap{
+    width: 810px;
+    margin: 0 auto;
+}
+.item__list__wrap ul{
+    display: FLEX;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.item{
+    width: 400px;
+    height: 360px;
+    background: #eee;
+}
+.item__list__wrap a{
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+.item__list__wrap img{
+    display: block;
+    margin: 0 auto;
+}
+.item__list__wrap span{
+    display: block;
+    text-align: center;
+}
