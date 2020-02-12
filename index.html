@@ -1,37 +1,123 @@
 <!DOCTYPE html>
-<html lang='ko'>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>이디야 | 음료</title>
-
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap&subset=korean"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap&subset=korean"
+      rel="stylesheet"
+    />
     <!-- material icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
 
     <!-- css -->
-    <link rel="stylesheet" type="text/css" href="css/common/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/common/common.css.css">
-    <link rel="stylesheet" type="text/css" href="css/style/index.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="css/common/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/common/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/style/index.css" />
 
-<body>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
     <div class="container">
-        <header>
+      <div class="header">
+        <div class="header__inner">
+          <h1 class="header__heading">
+            <a href="#"
+              ><span class="hide">이디야 로고</span
+              ><img src="./images/ediya-logo.gif" alt=""
+            /></a>
+          </h1>
+          <a class="open__button" role="button" tabindex="0">
+            <span class="hide">메뉴버튼</span>
+            <img src="./images/navigation-button.gif"
+          /></a>
 
-        </header>
-        <main>
-            <section>
-
-            </section>
-        </main>
+          <nav class="header__menu">
+            <a class="close__button" role="button"
+              ><span class="hide">메뉴닫기버튼</span>
+              <span>
+                <i class="material-icons" tabindex="0">
+                  close
+                </i>
+              </span>
+            </a>
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#">메뉴</a></li>
+              <li class="menu__item"><a href="#">이디야멤버스</a></li>
+              <li class="menu__item"><a href="#">이디야커피랩</a></li>
+              <li class="menu__item"><a href="#">이디야컬처랩</a></li>
+              <li class="menu__item"><a href="#">공지사항</a></li>
+              <li class="menu__item"><a href="#">매장찾기</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
-</body>
-
-
-
-
+    <main>
+        <section>
+            <h2 class="hide">음료수 메뉴</h2>
+            <div class="item__list__wrap">
+                <ul class="">
+                    <li class="item">
+                        <a href="#">
+                            <img src="./images/iced-cherry-blossoms-latte.png" alt="아이스 벛꽃라떼 이미지">
+                            <span>ICED 벛꽃라떼</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <img src="./images/hot-cherry-blossoms-latte.png" alt="핫 벛꽃라떼 이미지">
+                            <span>HOT 벛꽃라떼</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <img src="./images/iced-brownie-chocolate.png" alt="아이스 브라우니 쇼콜라 이미지">
+                            <span>ICED 브라우니 쇼콜라</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <img src="./images/hot-brownie-chocolate.png" alt="핫 벛꽃라떼 이미지">
+                            <span>HOT 브라우니 쇼콜라</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <img src="./images/jeju-green-tangerine-tea.png" alt="제주청귤 오리지널 이미지">
+                            <span>제주청귤 오리지널</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <img src="./images/jeju-green-tangerine-blossom.png" alt="제주청귤 블라썸 이미지">
+                            <span>제주청귤 블라썸</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <img src="./images/pomegranate-tea.png" alt="석류 오리지널 이미지">
+                            <span>석류 오리지널</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <img src="./images/pomegranate-apple-lime.png" alt="석류 애플라임 이미지">
+                            <span>석류 애플라임</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+  </body>
 </html>
+
+
+
