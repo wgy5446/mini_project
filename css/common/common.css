@@ -1,0 +1,13 @@
+@charset "utf-8";
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+}
+
+.hide {
+  display: block;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
