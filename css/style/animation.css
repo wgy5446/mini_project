@@ -25,7 +25,6 @@
 }
 @keyframes buttonAni {
   0% {
-    /* transform: translate(-600px, 0); */
     transform: translateX(100%);
     opacity: 0;
   }
@@ -61,7 +60,9 @@
 }
 
 /* 메뉴 리스트 애니메이션 */
-
+.item__list__wrap .item{
+  opacity:0;
+}
 @keyframes menuAni {
     0% {
       transform: translateY(100%);
@@ -74,30 +75,29 @@
   .item__list__wrap .item{
     animation-name: menuAni;
     animation-duration: 1000ms;
-    animation-fill-mode: forwards;
-    
+    animation-fill-mode: forwards;     
   }
   .item__list__wrap .item:nth-child(1) {
-    animation-delay: 400ms;
+    animation-delay: 1.4s;
   }
   .item__list__wrap .item:nth-child(2) {
-    animation-delay: 550ms;
+    animation-delay: 1.6s;
   }
   .item__list__wrap .item:nth-child(3) {
-    animation-delay: 650ms;
+    animation-delay: 1.8s;
   }
   .item__list__wrap .item:nth-child(4) {
-    animation-delay: 750ms;
-  }
-  .item__list__wrap .item:nth-child(5) {
-    animation-delay: 1s;
-  }
-  .item__list__wrap .item:nth-child(6) {
-    animation-delay: 1.5s;
-  }
-  .item__list__wrap .item:nth-child(7) {
     animation-delay: 2s;
   }
+  .item__list__wrap .item:nth-child(5) {
+    animation-delay: 2.2s;
+  }
+  .item__list__wrap .item:nth-child(6) {
+    animation-delay: 2.4s;
+  }
+  .item__list__wrap .item:nth-child(7) {
+    animation-delay: 2.6s;
+  }
   .item__list__wrap .item:nth-child(8) {
-    animation-delay: 2.5s;
+    animation-delay: 2.8s;
   }
